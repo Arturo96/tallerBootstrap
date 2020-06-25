@@ -17,6 +17,8 @@
 
 .hotel button {
     margin-top: auto;
+    background-color: #6ab7ff;
+    border-color: #6ab7ff;
 }
 
 footer a {
@@ -24,6 +26,15 @@ footer a {
     font-size: 1.25em;
 }
 
-footer p, footer a {
+footer p, .location {
     text-align: center;
+}
+
+.location {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.about {
+    text-align: right;
 }
