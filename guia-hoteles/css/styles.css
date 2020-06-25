@@ -2,6 +2,9 @@
     background-color: #ffeb0196;
 }
 
+.jumbotron {
+    margin-top: 3rem;
+}
 .hoteles {
     background-color: #fafafa;
 }
@@ -37,4 +40,8 @@ footer p, .location {
 
 .about {
     text-align: right;
+}
+
+.navbar-brand {
+    font-weight: bold;
 }
