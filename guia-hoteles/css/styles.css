@@ -1,47 +1,54 @@
-.jumbotron, footer {
-    background-color: #ffeb0196;
+.navbar-brand {
+	font-weight: bold;
+}
+
+.jumbotron,
+footer {
+	background-color: #ffeb0196;
 }
 
 .jumbotron {
-    margin-top: 3rem;
+	margin-top: 3rem;
 }
 .hoteles {
-    background-color: #fafafa;
+	background-color: #fafafa;
 }
 
 .hotel {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .hotel h2 {
-    text-align: center;
+	text-align: center;
 }
 
 .hotel button {
-    margin-top: auto;
-    background-color: #6ab7ff;
-    border-color: #6ab7ff;
-}
-
-footer a {
-    display: block;
-    font-size: 1.25em;
-}
-
-footer p, .location {
-    text-align: center;
+	margin-top: auto;
+	background-color: #6ab7ff;
+	border-color: #6ab7ff;
 }
 
 .location {
-    font-size: 1.5em;
-    font-weight: bold;
+	font-size: 1.5em;
+	font-weight: bold;
 }
 
 .about {
-    text-align: right;
+	text-align: right;
 }
 
-.navbar-brand {
-    font-weight: bold;
+
+footer a {
+	display: block;
+	font-size: 1.25em;
+}
+
+footer p,
+.location {
+	text-align: center;
+}
+
+.footer-address-icon {
+    margin-right: .75rem;
 }
