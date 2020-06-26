@@ -4,7 +4,10 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="../node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
+		<link
+			rel="stylesheet"
+			href="../node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css"
+		/>
 		<link rel="stylesheet" href="../css/styles.css" />
 		<title>Contacto</title>
 	</head>
@@ -14,49 +17,106 @@
 				<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 					<div class="container-md">
 						<a href="../index.html" class="navbar-brand">Hoteles</a>
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<button
+							class="navbar-toggler"
+							type="button"
+							data-toggle="collapse"
+							data-target="#navbarSupportedContent"
+							aria-controls="navbarSupportedContent"
+							aria-expanded="false"
+							aria-label="Toggle navigation"
+						>
 							<span class="navbar-toggler-icon"></span>
-						  </button>
-						  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+						</button>
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
 							<ul class="navbar-nav mr-auto">
-							  <li class="nav-item">
-								<a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
-							  </li>
-							  <li class="nav-item">
-								<a class="nav-link" href="./about.html">Nosotros</a>
-							  </li>
-							  <li class="nav-item">
-								<a class="nav-link" href="./precios.html">Precios</a>
-							  </li>
-							  <li class="nav-item">
-								<a class="nav-link" href="./terminos.html">Términos y Condiciones</a>
-							  </li>
-							  <li class="nav-item active">
-								<a class="nav-link" href="./contacto.html">Contacto</a>
-							  </li>
-							  
-							  
+								<li class="nav-item">
+									<a class="nav-link" href="../index.html"
+										>Home <span class="sr-only">(current)</span></a
+									>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="./about.html">Nosotros</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="./precios.html">Precios</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="./terminos.html">Términos y Condiciones</a>
+								</li>
+								<li class="nav-item active">
+									<a class="nav-link" href="./contacto.html">Contacto</a>
+								</li>
 							</ul>
-						  </div>
+						</div>
 					</div>
 				</nav>
 			</div>
 		</header>
 		<div class="jumbotron mb-0">
-			<h1 class="text-center">Contacto</h1>
+			<h1 class="text-center">Contáctenos</h1>
 		</div>
-		<section class="precios">
-			<div class="container mt-3">
+		<section class="precios py-5">
+			<div class="container">
 				<nav aria-label="breadcrumb">
 					<ol class="breadcrumb">
-					  <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
-					  <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+						<li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+						<li class="breadcrumb-item active" aria-current="page">Contacto</li>
 					</ol>
-				  </nav>
-				<p><span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laudantium laborum rerum explicabo soluta harum, vel voluptas dolores recusandae dolorem maxime optio perferendis saepe aliquam aut adipisci modi. Beatae, ad!</span><span>Sequi officia excepturi maxime a. Quod tempore sed maiores vitae doloribus est accusantium similique. At maxime sint, odit quasi deserunt, odio nobis, asperiores aliquam quidem beatae ea illum cum modi?</span></p>
-				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi provident, rem ab repudiandae perspiciatis iure eligendi numquam. Magnam dolores quidem, repellendus, recusandae officia itaque eaque magni assumenda perferendis, similique maxime.</p>
-			</div>
+                </nav>
+                <h2>Dejame tu comentario</h2>
+                
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-sm-6">
+                            <label for="nombre">Nombre</label>
+                            <input class="form-control" id="nombre" type="text" placeholder="Ingrese su nombre">
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label for="apellidos">Apellidos</label>
+                            <input id="apellidos" class="form-control" type="text" placeholder="Ingresa tus Apellidos">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" class="form-control" placeholder="Ingrese su email">
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-sm-6">
+                            <label for="direccion">Dirección</label>
+                            <input class="form-control" id="direccion" type="text" placeholder="Ingrese su dirección">
+                        </div>
+                        <div class="form-group col-sm-3 offset-sm-1">
+                            <label for="municipio">Municipio</label>
+                            <select id="municipio" class="form-control">
+                                <option>Medellín</option>
+                                <option>Bello</option>
+                                <option>Sabaneta</option>
+                                <option>Envigado</option>
+                                <option>La Estrella</option>
+                                <option>Itagüí</option>
+                                <option>Caldas</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="comentario">Comentario</label>
+                        <textarea class="form-control col-sm-8" id="comentario" rows="10" placeholder="Escribe tu comentario..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input id="ofertas" type="checkbox" class="form-check-input">
+                            <label for="ofertas" class="form-check-label">Quiero recibir ofertas que vayan saliendo de los diferentes hoteles</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+
+                </form>
 			
+			</div>
 		</section>
 
 		<footer>
