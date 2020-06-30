@@ -74,8 +74,11 @@ thead.bg-warning {
 }
 
 @media screen and (max-width: 575px) {
-	.jumbotron {
-		margin-top: 5rem;
+	footer a {
+		text-align: center;
 	}
-	
+
+	footer address {
+		margin: 2rem 0;
+	}
 }
