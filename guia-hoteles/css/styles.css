@@ -20,8 +20,7 @@ footer {
 }
 
 .hotel {
-	display: flex;
-	flex-direction: column;
+	width: 30%;
 }
 
 .hotel h2 {
@@ -32,6 +31,11 @@ footer {
 	margin-top: auto;
 	background-color: #6ab7ff;
 	border-color: #6ab7ff;
+}
+
+.card-body img {
+	height: 15rem;
+	margin-bottom: 1rem;
 }
 
 .location {
