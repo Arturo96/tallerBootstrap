@@ -57,3 +57,21 @@ footer p,
 .footer-address-icon {
     margin-right: .75rem;
 }
+
+.oi-star {
+	color: #fff;
+}
+
+.ranked {
+	color: yellow;
+}
+
+thead.bg-warning {
+	color: #000;
+}
+
+@media screen and (max-width: 575px) {
+	.jumbotron {
+		margin-top: 5rem;
+	}
+}
