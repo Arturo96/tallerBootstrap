@@ -34,7 +34,6 @@ footer {
 }
 
 .card-body img {
-	height: 15rem;
 	margin-bottom: 1rem;
 }
 
@@ -78,4 +77,5 @@ thead.bg-warning {
 	.jumbotron {
 		margin-top: 5rem;
 	}
+	
 }
