@@ -73,9 +73,19 @@ thead.bg-warning {
 	color: #000;
 }
 
-/* #tarjetas .card {
-	width: 20rem;
-} */
+.suscribe {
+	background-color: #380036;
+	color: #D9D4D8;
+}
+
+.suscribe--text {
+	line-height: 2.25rem;
+}
+
+.suscribe button {
+	background-color: #3454D1;
+	border-color: #3454D1;
+}
 
 @media screen and (max-width: 575px) {
 	footer a {
@@ -84,5 +94,13 @@ thead.bg-warning {
 
 	footer address {
 		margin: 2rem 0;
+	}
+
+}
+
+@media screen and (max-width: 960px) {
+	
+	.suscribe h2, .suscribe h4 {
+		text-align: center;
 	}
 }
