@@ -73,9 +73,9 @@ thead.bg-warning {
 	color: #000;
 }
 
-#tarjetas .card {
+/* #tarjetas .card {
 	width: 20rem;
-}
+} */
 
 @media screen and (max-width: 575px) {
 	footer a {
@@ -85,11 +85,4 @@ thead.bg-warning {
 	footer address {
 		margin: 2rem 0;
 	}
-}
-
-@media screen and (max-width: 350px) {
-	#tarjetas .card {
-		width: 100%;
-	}
-	
 }
