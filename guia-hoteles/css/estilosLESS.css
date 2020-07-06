@@ -1,0 +1,95 @@
+textarea {
+  resize: none;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+.jumbotron,
+footer {
+  background-color: #FFD449;
+}
+.jumbotron {
+  margin-top: 3rem;
+}
+.hoteles {
+  background-color: #fafafa;
+}
+.hotel {
+  width: 30%;
+}
+.hotel h2 {
+  text-align: center;
+}
+.hotel button {
+  margin-top: auto;
+  background-color: #6ab7ff;
+  border-color: #6ab7ff;
+}
+.card-body img {
+  margin-bottom: 1rem;
+}
+.location {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.about {
+  text-align: right;
+}
+footer a {
+  display: block;
+  font-size: 1.25em;
+}
+footer p,
+.location {
+  text-align: center;
+}
+.footer-address-icon {
+  margin-right: .75rem;
+}
+.oi-star {
+  color: #fff;
+}
+.info::before {
+  font-size: .4em;
+  border: 1px solid #000;
+  border-radius: 50%;
+  padding: 0.3rem;
+  background-color: #000;
+  color: #fff;
+}
+.ranked {
+  color: yellow;
+}
+thead.bg-warning {
+  color: #000;
+}
+.suscribe {
+  background-color: #380036;
+  color: #D9D4D8;
+}
+.suscribe--text {
+  line-height: 2.25rem;
+}
+.suscribe button {
+  background-color: #3454D1;
+  border-color: #3454D1;
+}
+@media screen and (max-width: 575px) {
+  footer a {
+    text-align: center;
+  }
+  footer address {
+    margin: 2rem 0;
+  }
+}
+@media screen and (max-width: 960px) {
+  .suscribe h2,
+  .suscribe h4 {
+    text-align: center;
+  }
+}
+.spacing {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #db5461;
+}
