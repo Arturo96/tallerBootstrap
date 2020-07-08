@@ -1,5 +1,12 @@
-@import 'config/mixins';
-@import 'config/variables';
+@mixin espaciado($m, $p, $bg) {
+    margin: $m;
+    padding: $p;
+    background-color: $bg;
+}
+
+$yellow: yellow;
+$green: #548C2F;
+$red: #DB5461;
 
 textarea {
     resize: none;
@@ -23,12 +30,17 @@ footer {
 
 .hotel {
 	width: 30%;
+
+	h2 {
+		text-align: center;
+	}
+
+	h3 {
+		text-align: right;
+	}
 }
 
-.hotel h2 {
-	text-align: center;
-}
-
+	
 .hotel button {
 	margin-top: auto;
 	background-color: #6ab7ff;
