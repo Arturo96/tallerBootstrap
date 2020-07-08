@@ -6,7 +6,7 @@ textarea {
 
 .jumbotron,
 footer {
-  background-color: #FFD449; }
+  background-color: yellow; }
 
 .jumbotron {
   margin-top: 3rem; }
@@ -16,9 +16,8 @@ footer {
 
 .hotel {
   width: 30%; }
-
-.hotel h2 {
-  text-align: center; }
+  .hotel h2 {
+    text-align: center; }
 
 .hotel button {
   margin-top: auto;

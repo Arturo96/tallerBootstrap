@@ -23,9 +23,6 @@
   "devDependencies": {
     "copyfiles": "^2.3.0",
     "cssmin": "^0.4.3",
-    "grunt": "^1.2.1",
-    "grunt-contrib-sass": "^1.0.0",
-    "grunt-contrib-watch": "^1.1.0",
     "htmlmin": "0.0.7",
     "less": "^3.11.3",
     "lite-server": "^2.5.4",
