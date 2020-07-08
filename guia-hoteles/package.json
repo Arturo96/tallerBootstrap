@@ -4,7 +4,7 @@
   "description": "Mi primer proyecto",
   "main": "index.html",
   "scripts": {
-    "build": "npm run clean && npm run scss & npm run imagemin && npm run usemin",
+    "build": "npm run clean && npm run scss & npm run imagemin && npm run usemin && copyfiles --flat \"node_modules/open-iconic/font/fonts/*\" \"dist/fonts\"",
     "clean": "rimraf dist",
     "dev": "lite-server",
     "imagemin": "imagemin images/* --out-dir dist/images",
